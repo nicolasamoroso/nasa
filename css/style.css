@@ -1,0 +1,20 @@
+main {
+  min-height: calc(100vh - 160px);
+}
+
+.box {
+  margin-top: 15px;
+  height: 165px;
+  overflow: auto;
+}
+
+.imgNASA {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
